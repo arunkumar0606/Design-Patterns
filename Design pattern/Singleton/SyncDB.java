@@ -1,4 +1,4 @@
-package Singleton.Eager;
+package Singleton;
 
 public class SyncDB{
     private static SyncDB dbInstance;
