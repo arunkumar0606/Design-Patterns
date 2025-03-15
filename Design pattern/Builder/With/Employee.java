@@ -1,12 +1,12 @@
 package Builder.With;
 
 public class Employee {
-    private String name;
-    private int age;
-    private String email;
-    private int experience;
-    private String gender;
-    private String address; 
+    private final String name;
+    private final int age;
+    private final String email;
+    private final int experience;
+    private final String gender;
+    private final String address; 
 
     private Employee(EmployeeBuilder employeeBuilder){
 
